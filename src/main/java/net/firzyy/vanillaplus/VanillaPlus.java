@@ -1,6 +1,7 @@
 package net.firzyy.vanillaplus;
 
 import com.mojang.logging.LogUtils;
+import net.firzyy.vanillaplus.block.ModBlocks;
 import net.firzyy.vanillaplus.item.ModCreativeModeTabs;
 import net.firzyy.vanillaplus.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,7 @@ public class VanillaPlus
 
         ModCreativeModeTabs.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);

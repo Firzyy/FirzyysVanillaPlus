@@ -1,6 +1,7 @@
 package net.firzyy.vanillaplus.item;
 
 import net.firzyy.vanillaplus.VanillaPlus;
+import net.firzyy.vanillaplus.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +18,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.vanillaplus_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RUBY.get());
+
+                        output.accept(ModBlocks.RUBY_BLOCK.get());
                     })
                     .build());
 
