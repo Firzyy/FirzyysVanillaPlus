@@ -23,6 +23,12 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.RUBY_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+
+                        output.accept(ModItems.EMERALD_SWORD.get());
+                        output.accept(ModItems.EMERALD_PICKAXE.get());
+                        output.accept(ModItems.EMERALD_SHOVEL.get());
+                        output.accept(ModItems.EMERALD_AXE.get());
+                        output.accept(ModItems.EMERALD_HOE.get());
                     })
                     .build());
 

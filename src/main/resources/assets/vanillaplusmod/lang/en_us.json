@@ -1,10 +1,18 @@
 {
   "item.vanillaplusmod.ruby": "Ruby",
 
+  "item.vanillaplusmod.emerald_sword": "Emerald Sword",
+  "item.vanillaplusmod.emerald_axe": "Emerald Axe",
+  "item.vanillaplusmod.emerald_pickaxe": "Emerald Pickaxe",
+  "item.vanillaplusmod.emerald_shovel": "Emerald Shovel",
+  "item.vanillaplusmod.emerald_hoe": "Emerald Hoe",
+
   "block.vanillaplusmod.ruby_block": "Block of Ruby",
 
   "block.vanillaplusmod.ruby_ore": "Ruby Ore",
   "block.vanillaplusmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+
 
   "creativetab.vanillaplus_tab": "Firzyy's Vanilla+"
 }
